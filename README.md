@@ -23,12 +23,16 @@ We need some extra stuff to run client-side, to make sure the system doesnt comp
 Synthesis uses the SMT solver CVC4 (which is a crazy optimized behemoth of C code), so needs to run server side. You can download using below commands, then change permissions. Make sure the cvc4 executable is in the root directory of this repo.
    
    ```wget https://cvc4.cs.stanford.edu/downloads/builds/x86_64-linux-opt/unstable/cvc4-2020-08-09-x86_64-linux-opt```
+   
    ```mv cvc4-2020-08-09-x86_64-linux-opt cvc4```
+   
    ```chmod u+x cvc4```
 
 Then install everything and get playing!
 
    ```npm install```
+   
    ```node app.js```
+   
    ```nohup node app.js &```
 
